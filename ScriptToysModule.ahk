@@ -5,7 +5,7 @@
 #SuspendExempt false
 
 ; Reload script:
-#^r:: Run('meta-launcher.ahk')
+#^r:: Run('*UIAccess "AhkToysModule.ahk"')
 
 #^p:: Pause(-1)
 #^x:: ExitApp()
